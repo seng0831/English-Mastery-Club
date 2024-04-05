@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Mastery Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"/>	
+</head>
+<body>
+    <div id="header">
+        <div id="clubLogo">
+            <a href="index.html"></a><img alt="Club's Logo" src="images/Logo.png" />
+        </div>
+            
+        <div id="navigation">
+            <ul> 
+                <li><a href="../Nabil%20Nazim/body.html">Welcome</a></li>
+                <li><a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a></li>
+                <li><a href="../Chia%20Yik%20Seng/programmes.html">Activities</a></li>
+                <li><a href="../Cheng%20Wei%20Quan/forums.html">Forums</a></li>
+                <li><a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+        <!--Search Box-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="view-all">View all</option>
+                    <option value="details">Details</option>
+                    <option value="comments">Comments</option>
+                    <option value="replies">Replies</option>
+                </select>
+                <input type="text" name="q" id="" placeholder="search...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    <div class="container">
+        <!---- Navigation ---->
+        <div>
+            <span><a href="forums.html">My forum - Forums</a> &nbsp; >> &nbsp; <a href="posts.html">Discussion</a> &nbsp; >> &nbsp; <a href="details2.html">Users</a></span>
+        </div>
+    
+<!----- Comment -------->
+<div class="comment-area hide" id="comment-area">
+    <textarea name="comment" id="" placeholder="Type your comments here..."></textarea>
+    <input type="submit" name="" id="" value="submit">
+</div>
+
+<!----- Show Comments -------->
+<div class="comments-container">
+    <div class="head">
+        <div class="authors">Users</div>
+        <div class="contents">Replies</div>
+    </div>
+
+    <div class="body">
+        <div class="authors">
+            <div class="username2" id="Gabriel"><a href="posts.html#Gabriel">Gabriel</a></div>
+            <img src="images/user2.jpg" alt="">
+            <div>Posts: <u>13</u></div>
+            <div>Points <u>1,897</u></div>
+        </div>
+
+        <div class="content">
+            Essay writing is an essential skill that not only hones our ability to articulate thoughts coherently but also encourages critical thinking and analysis.
+            It serves as a powerful tool to express ideas, convey arguments, and explore complex topics in a structured manner. Through the process of writing essays, 
+            we learn to research, organize information, and present our perspectives effectively. Moreover, it fosters creativity, develops our writing style, and 
+            enhances our communication skills. Whether in academia or beyond, the art of essay writing equips us with the tools to convey our thoughts with clarity, 
+            precision, and impact, making it an invaluable skill in today's information-driven world. Mastering the art of essay writing empowers individuals to 
+            engage in intellectual discourse, contribute to knowledge sharing, and influence public opinion. It is a skill that opens doors to academic success and 
+            effective communication in various professional and personal spheres.
+            <br><br>
+            <hr>
+            From Gabriel
+            <div class="comment">
+                <button onclick="showReply()">Reply</button>
+            </div>
+            <div class="comment-area hide" id="reply-area">
+                <textarea name="comment" id="" placeholder="Type your replies here..."></textarea>
+                <input type="submit" name="" id="" value="submit">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="body">
+        <div class="authors">
+            <div class="username2" id="Emily"><a href="posts.html#Emily">Emily</a></div>
+            <img src="images/user7.jpeg" alt="">
+            <div>Posts: <u>21</u></div>
+            <div>Points <u>15,289</u></div>
+        </div>
+
+        <div class="content">
+            Emily Erling, an aspiring student whose passion for writing radiates with every word she puts on paper. With a heart brimming with creativity and a mind
+            filled with vivid stories, she embraces the power of words to express her thoughts and captivate the minds of her readers.Emily's enthusiasm for writing is 
+            palpable. Whether it's crafting compelling narratives, penning heartfelt poetry, or exploring thought-provoking essays, she approaches each piece with 
+            unwavering dedication and an insatiable thirst for self-expression. Writing is not just a hobby for Emily; it's a way of life, a means through which she 
+            navigates the world and connects with others.As a student, Emily's love for writing is not confined to the classroom. She eagerly seeks opportunities to 
+            share her work, entering contests, joining writing clubs, and even contributing to her school's literary magazine. Her determination to hone her craft pushes
+            her to constantly seek feedback and grow as a writer.Emily's writing is marked by her ability to evoke emotions and create vivid imagery. 
+            <br><br>
+            <hr>
+            From Emily Erling
+            <div class="comment">
+                <button onclick="showReply1()">Reply</button>
+            </div>
+            <div class="comment1-area hide" id="reply1-area">
+                <textarea name="comment1" id="" placeholder="Type your replies here..."></textarea>
+                <input type="submit" name="" id="" value="submit">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="body">
+        <div class="authors">
+            <div class="username2" id="Alex"><a href="posts.html#Alex">Alex</a></div>
+            <img src="images/user8.jpg" alt="">
+            <div>Posts: <u>192</u></div>
+            <div>Points <u>1,028,963</u></div>
+        </div>
+
+        <div class="content">
+            As a gamer, Alex's enthusiasm knows no limits. From exploring vast open worlds to engaging in competitive multiplayer battles, every gaming session 
+            is an exhilarating adventure. Their dedication to the craft extends beyond mere entertainment; it's a deep appreciation for the artistry, storytelling, 
+            and camaraderie that gaming fosters.Alex's prowess in the gaming realm is evident in their mastery of various genres. Whether it's navigating treacherous 
+            dungeons, strategizing in real-time strategy games, or showcasing lightning-fast reflexes in intense first-person shooters, they approach every game with 
+            determination and a hunger for improvement.But Alex's love for gaming goes beyond personal achievements. They actively engage with the gaming community, 
+            sharing insights, strategies, and fostering connections with fellow gamers. Their passion shines through in online forums, streaming platforms, and local 
+            gaming events, where they inspire and uplift others through their infectious enthusiasm.Beyond the pixels and controllers, gaming serves as a canvas for 
+            Alex's creativity. They delve into game design, crafting their own levels, mods, and even storytelling adventures. 
+            <hr>
+            From Allex Collins
+            <div class="comment">
+                <button onclick="showReply2()">Reply</button>
+            </div>
+            <div class="comment2-area hide" id="reply2-area">
+                <textarea name="comment2" id="" placeholder="Type your replies here..."></textarea>
+                <input type="submit" name="" id="" value="submit">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="body">
+        <div class="authors">
+            <div class="username2" id="Ryan"><a href="posts.html#Ryan">Ryan</a></div>
+            <img src="images/user9.jpg" alt="">
+            <div>Posts: <u>133</u></div>
+            <div>Points <u>589,364</u></div>
+        </div>
+
+        <div class="content">
+            As an e-sports athlete, Ryan's passion for gaming reaches new heights. Hours of training, honing their skills in strategy, precision, and teamwork, have 
+            transformed them into a formidable force in the e-sports arena. They have mastered the intricacies of popular games, embracing the complexities of each 
+            title and strategizing to outwit opponents with precision and calculated moves.Ryan's dedication to e-sports goes beyond individual achievements. 
+            They immerse themselves in the e-sports community, collaborating with teammates, coaches, and analysts to unlock new strategies and reach higher levels of 
+            excellence. They embrace the values of teamwork, discipline, and resilience, understanding that success in e-sports requires a harmonious blend of individual 
+            talent and collective effort.As an ambassador for e-sports, Ryan extends their influence beyond the virtual realm. They participate in tournaments, streaming 
+            their gameplay to inspire and engage with fans around the globe. Their passion and skill inspire aspiring e-sports athletes, fostering a sense of community and 
+            pushing the boundaries of what is possible in the world of competitive gaming.
+            <br><br>
+            <hr>
+            From Ryan Mitchell
+            <div class="comment">
+                <button onclick="showReply3()">Reply</button>
+            </div>
+            <div class="comment3-area hide" id="reply3-area">
+                <textarea name="comment3" id="" placeholder="Type your replies here..."></textarea>
+                <input type="submit" name="" id="" value="submit">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="body">
+        <div class="authors">
+            <div class="username2" id="Olivia"><a href="posts.html#Olivia">Olivia</a></div>
+            <img src="images/user10.jpg" alt="">
+            <div>Posts: <u>71</u></div>
+            <div>Points <u>736,823</u></div>
+        </div>
+
+        <div class="content">
+            Olivia's love for photography is a constant companion on her explorations. Whether she's hiking through majestic mountains, strolling along serene beaches, 
+            or wandering through enchanting forests, her keen eye and artistic sensibilities capture fleeting moments of magic. Each photograph tells a story, evoking 
+            emotions and inviting viewers to experience the world through her unique perspective.Beyond the technical aspects of photography, Olivia's true gift lies in 
+            her ability to convey the intangible. Her photographs breathe with life, revealing the hidden beauty in simple details—a dewdrop on a petal, a ray of sunlight 
+            filtering through dense foliage, or a solitary bird soaring against a painted sky. Through her artistry, she invites us to pause, appreciate, and reconnect with 
+            the natural world that surrounds us.Olivia's work extends beyond the realm of photography. She actively engages with environmental causes, using her images to raise 
+            awareness and advocate for the preservation of Earth's treasures. Her passion for conservation shines through her work, reminding us of our responsibility to 
+            protect and cherish the delicate balance of nature.
+            <br><br>
+            <hr>
+            From Olivia Bennett
+            <div class="comment">
+                <button onclick="showReply4()">Reply</button>
+            </div>
+            <div class="comment4-area hide" id="reply4-area">
+                <textarea name="comment4" id="" placeholder="Type your replies here..."></textarea>
+                <input type="submit" name="" id="" value="submit">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!----- Pagination -------->
+<div class="pagination">
+    Details: <a href="details.html">Author</a> <a href="details2.html">User</a> 
+</div>
+
+
+<!----- Footer -------->        
+        
+<div id="footer">
+    <div class="footer-left">
+        <h3>ENGLISH MASTERY CLUB</h3>
+
+        <div class="footer-nav">
+            <a href="">Welcome</a> |
+            <a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a> |
+            <a href="../Chia%20Yik%20Seng/programmes.html">Activities</a> |
+            <a href="../Cheng%20Wei%20Quan/forums.html">Forums</a> |
+            <a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a>
+        </div>
+
+        <p>Copyright &#169; 2023 English Mastery Club <br/>All rights reserved</p>
+    </div>
+    
+    <div class="footer-center">
+        <table>
+            <tr>
+                <td><i class="fa fa-envelope"></i></td>
+                <td><p>apuenglishmasteryclub@mail.apu.edu.my</p></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-phone"></i></td>
+                <td><p>011-222-3333 - Cheng Wei Quan <br/>
+                    012-333-6789 - Nabil Nazim <br/>
+                    010-666-9999 - Chia Yik Seng <br/>
+                    010-567-7890 - Wong Xian Hao</p>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-map-marker"></i></td>
+                <td><p>8-01, Block C, Level 8 @ APU New Campus</p></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-aboutclub">
+            <span>About the club</span>
+            English Mastery Club offers inclusive, friendly environment for English language learners, offering activities, resources, and events for practice, improvement, and cultural exchange.
+        </p>
+
+        <p class="footer-query">
+            <span>Any queries?</span>
+            Get to Contact Us Page by clicking <a href="../Wong%20Xian%20Hao/contactus.html">HERE</a>
+        </p>
+    </div>
+</div>       
+        
+        
+  
+        
+
+<!--------JavaScript for Toggle Menu------->  
+ <script> 
+        
+   var navLinks = document.getElementById("navLinks");  
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+
+//Comment Area
+function showComment(){
+    var commentArea = document.getElementById("comment-area");
+    commentArea.setAttribute("style", "display: block;");
+}
+
+function showReply(){
+    var replyArea = document.getElementById("reply-area");
+    replyArea.setAttribute("style", "display: block;");
+}
+
+function showReply1(){
+    var reply1Area = document.getElementById("reply1-area");
+    reply1Area.setAttribute("style", "display: block;");
+}
+
+function showReply2(){
+    var reply2Area = document.getElementById("reply2-area");
+    reply2Area.setAttribute("style", "display: block;");
+}
+
+function showReply3(){
+    var reply3Area = document.getElementById("reply3-area");
+    reply3Area.setAttribute("style", "display: block;");
+}
+
+function showReply4(){
+    var reply4Area = document.getElementById("reply4-area");
+    reply4Area.setAttribute("style", "display: block;");
+}
+
+</script>       
+        
+
+</body>
+</html>

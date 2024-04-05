@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Mastery Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"/>	
+
+</head>
+<body>
+    <div id="header">
+        <div id="clubLogo">
+            <a href="index.html"></a><img alt="Club's Logo" src="images/Logo.png" />
+        </div>
+            
+        <div id="navigation">
+            <ul> 
+                <li><a href="../Nabil%20Nazim/body.html">Welcome</a></li>
+                <li><a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a></li>
+                <li><a href="../Chia%20Yik%20Seng/programmes.html">Activities</a></li>
+                <li><a href="../Cheng%20Wei%20Quan/forums.html">Forums</a></li>
+                <li><a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+        <!--Search Box-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="view-all">View all</option>
+                    <option value="subjects">Subjects</option>
+                    <option value="replies">Replies</option>
+                </select>
+                <input type="text" name="q" id="" placeholder="search...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    <div class="container">
+        <!---- Navigation ---->
+        <div>
+            <span><a href="forums.html">My forum - Forums</a> &nbsp; >> &nbsp; <a href="posts.html">Discussion</a></span>
+        </div>
+        <br>
+
+
+        <div class="posts-table">
+            <div class="table-head">
+                <div class="status">Status</div>
+                <div class="subjects">Subjects</div>
+                <div class="replies">Replies</div>
+                <div class="views">Views</div>
+                <div class="last-reply">Last reply</div>
+            </div>
+        </div>
+
+        <div class="table-row">
+            <div class="status"><i class="fa fa-fire"></i></div>
+            <div class="subjects"><a href="#">What If I Don't Understand English?</a>
+                <br>
+                <span>Started by Benjamine</span>
+            </div>
+            <div class="replies">
+                145 replies
+            </div>
+            <div class="views">
+                13,098 views
+            </div>
+            <div class="last-reply">
+                14 May 2023
+                <br>
+                by <b><a href="details2.html#Gabriel" id="Gabriel">Gabriel</a></b>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="status"><i class="fa fa-rocket"></i></div>
+            <div class="subjects"><a href="#">Is Understanding English Important when Playing Fortnite?</a>
+                <br>
+                <span>Started by Nabil</span>
+            </div>
+            <div class="replies">
+                518 replies
+            </div>
+            <div class="views">
+                239,034 views
+            </div>
+            <div class="last-reply">
+                15 May 2023
+                <br>
+                by <b><a href="details2.html#Ryan" id="Ryan">Ryan</a></b>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="status"><i class="fa fa-book"></i></div>
+            <div class="subjects"><a href="#">What is Literature?</a>
+                <br>
+                <span>Started by Adam</span>
+            </div>
+            <div class="replies">
+                12 replies
+            </div>
+            <div class="views">
+                1,230 views
+            </div>
+            <div class="last-reply">
+                7 May 2023
+                <br>
+                by <b><a href="details2.html#Emily" id="Emily">Emily</a></b>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="status"><i class="fa fa-lock"></i></div>
+            <div class="subjects"><a href="#">How To Hack University Wifi?</a>
+                <br>
+                <span>Started by Vidik</span>
+            </div>
+            <div class="replies">
+                34 replies
+            </div>
+            <div class="views">
+                448 views
+            </div>
+            <div class="last-reply">
+                12 May 2023
+                <br>
+                by <b><a href="details2.html#Alex" id="Alex">Alex</a></b>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="status"><i class="fa fa-frown-o"></i></div>
+            <div class="subjects"><a href="#">How do you achieve sharp focus?</a>
+                <br>
+                <span>Started by Chris</span>
+            </div>
+            <div class="replies">
+                2 replies
+            </div>
+            <div class="views">
+                82 views
+            </div>
+            <div class="last-reply">
+                10 May 2023
+                <br>
+                by <b><a href="details2.html#Olivia" id="Olivia">Olivia</a></b>
+            </div>
+        </div>
+    </div>
+
+<!---- Status Note ---->
+<div class="note">
+    <span>
+        <i class="fa fa-fire"></i>&nbsp; Popular Topic <br>
+    </span>
+    <span>
+        <i class="fa fa-rocket"></i>&nbsp; High Engagement  <br>
+    </span>
+    <span>
+        <i class="fa fa-book"></i>&nbsp; Low Engagement <br>
+    </span>
+    <span>
+        <i class="fa fa-frown-o"></i>&nbsp; No Engagement <br>
+    </span>
+    <span>
+        <i class="fa fa-lock"></i>&nbsp; Closed Topic <br>
+    </span>
+</div>
+
+<!----- Pagination -------->
+<div class="pagination">
+    Details: <a href="details.html">Author</a> <a href="details2.html">User</a> 
+</div>
+
+<!----- Call to Action -------->
+<section class="cta">
+    <h2>Contact Us And Register To Learn <br> More About English.</h2>
+    <a href="../Wong%20Xian%20Hao/contactus.html" class="hero-btn">CONTACT US</a>
+    <br><br><br>
+    <p style="font-size: 20px;">"I am always ready to learn although I do not always like being taught" by Winston Churchill.</p>     
+</section>
+
+<!----- Footer -------->        
+        
+<div id="footer">
+    <div class="footer-left">
+        <h3>ENGLISH MASTERY CLUB</h3>
+
+        <div class="footer-nav">
+            <a href="">Welcome</a> |
+            <a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a> |
+            <a href="../Chia%20Yik%20Seng/programmes.html">Activities</a> |
+            <a href="../Cheng%20Wei%20Quan/forums.html">Forums</a> |
+            <a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a>
+        </div>
+
+        <p>Copyright &#169; 2023 English Mastery Club <br/>All rights reserved</p>
+    </div>
+    
+    <div class="footer-center">
+        <table>
+            <tr>
+                <td><i class="fa fa-envelope"></i></td>
+                <td><p>apuenglishmasteryclub@mail.apu.edu.my</p></td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-phone"></i></td>
+                <td><p>011-222-3333 - Cheng Wei Quan <br/>
+                    012-333-6789 - Nabil Nazim <br/>
+                    010-666-9999 - Chia Yik Seng <br/>
+                    010-567-7890 - Wong Xian Hao</p>
+                </td>
+            </tr>
+            <tr>
+                <td><i class="fa fa-map-marker"></i></td>
+                <td><p>8-01, Block C, Level 8 @ APU New Campus</p></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-aboutclub">
+            <span>About the club</span>
+            English Mastery Club offers inclusive, friendly environment for English language learners, offering activities, resources, and events for practice, improvement, and cultural exchange.
+        </p>
+
+        <p class="footer-query">
+            <span>Any queries?</span>
+            Get to Contact Us Page by clicking <a href="../Wong%20Xian%20Hao/contactus.html">HERE</a>
+        </p>
+    </div>
+</div>      
+        
+        
+  
+        
+
+<!--------JavaScript for Toggle Menu------->  
+ <script> 
+        
+   var navLinks = document.getElementById("navLinks");  
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+</script>       
+        
+        
+        
+</body>
+</html>
