@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Enroll Now!</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+    <div id="clubLogo">
+        <img alt="Club's Logo" src="images/Logo.png" />
+    </div>
+            
+		<div id="navigation">
+            <ul> 
+                <li><a href="../Nabil%20Nazim/body.html">Welcome</a></li>
+                <li><a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a></li>
+                <li><a href="../Chia%20Yik%20Seng/programmes.html">Activities</a></li>
+                <li><a href="../Cheng%20Wei%20Quan/forums.html">Forums</a></li>
+                <li><a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+</div>
+
+<!-- Sub-header -->
+<div id="enrollment-subhd">
+    <h1>Enroll Now!</h1>
+</div>
+
+<!-- Enrollment - Programmes available for enrollment -->
+<div id="enrollment-c1">
+    <h5>Here are the programmes available for you to enroll.</h5>
+
+    <div class="ec1-img">
+        <div class="ec1-col">
+            <img alt="Public Speaking" src="images/enroll1.png"/>
+            <div class="ec1-layer">
+                <h3>Essential Public Speaking</h3>
+            </div>
+        </div>
+        <div class="ec1-col">
+            <img alt="IELTS" src="images/enroll2.png"/>
+            <div class="ec1-layer">
+                <h3>IELTS</h3>
+            </div>
+        </div>
+        <div class="ec1-col">
+            <img alt="Intensive English Course" src="images/enroll3.png"/>
+            <div class="ec1-layer">
+                <h3>Intensive English Course</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Enrollment form -->
+<div id="enrollment-form">
+    <div class="enroll-right">
+        <div class="right-wrapper">
+            <h2>Enroll A Program</h2>
+
+            <form name="form2" action="enrollmentform.html">
+                <h4>User Details</h4>
+                <div class="ef-group">
+                    <div class="ef-input-box">
+                        <input type="text" placeholder="First Name" required="required" class="text" />
+                    </div>
+                    <div class="ef-input-box">
+                        <input type="text" placeholder="Last Name" required="required" class="text" />
+                    </div>
+                </div>
+
+                <div class="ef-group">
+                    <div class="ef-input-box">
+                        <input type="email" placeholder="Email Address" required="required" class="text2" />
+                    </div>
+                </div>
+
+                <div class="ef-group">
+                    <div class="ef-input-box">
+                        <input type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" class="text2" />
+                    </div>
+                </div>
+
+                <div class="ef-group">
+                    <div class="ef-input-box">
+                        <h4>Date of Birth</h4>
+                        <input type="text" placeholder="DD" required="required" class="dob">
+                        <input type="text" placeholder="MM" required="required" class="dob">
+                        <input type="text" placeholder="YYYY" required="required" class="dob">
+                    </div>
+                    <div class="ef-input-box">
+                        <h4>Gender</h4>
+                        <input type="radio" id="M" name="gender" checked="checked" class="radio">
+                        <label for="M">Male</label>
+                        <input type="radio" id="F" name="gender" class="radio">
+                        <label for="F">Female</label>
+                    </div>
+                </div>
+
+                <div class="ef-group">
+                    <div class="ef-input-box">
+                        <h4>The Programme You Are Enrolling For:</h4>
+                        <select>
+                            <option>Essential Public Speaking</option>
+                            <option>IELTS</option>
+                            <option>Intensive English Course (IEC)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <input class="button" type="submit" value="Enroll"/>		
+                <input class="button" type="reset" value="Clear"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!----Footer---->
+<div id="footer">
+	<div class="footer-left">
+		<h3>ENGLISH MASTERY CLUB</h3>
+
+		<div class="footer-nav">
+			<a href="">Welcome</a> |
+			<a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a> |
+			<a href="../Chia%20Yik%20Seng/programmes.html">Activities</a> |
+			<a href="../Cheng%20Wei%20Quan/forums.html">Forums</a> |
+			<a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a>
+		</div>
+
+		<p>Copyright &#169; 2023 English Mastery Club <br/>All rights reserved</p>
+	</div>
+	
+	<div class="footer-center">
+		<table>
+			<tr>
+				<td><i class="fa fa-envelope"></i></td>
+				<td><p>apuenglishmasteryclub@mail.apu.edu.my</p></td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-phone"></i></td>
+				<td><p>011-222-3333 - Cheng Wei Quan <br/>
+					012-333-6789 - Nabil Nazim <br/>
+					010-666-9999 - Chia Yik Seng <br/>
+					010-567-7890 - Wong Xian Hao</p>
+				</td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-map-marker"></i></td>
+				<td><p>8-01, Block C, Level 8 @ APU New Campus</p></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="footer-right">
+		<p class="footer-aboutclub">
+			<span>About the club</span>
+			English Mastery Club offers inclusive, friendly environment for English language learners, offering activities, resources, and events for practice, improvement, and cultural exchange.
+		</p>
+
+		<p class="footer-query">
+			<span>Any queries?</span>
+			Get to Contact Us Page by clicking <a href="../Wong%20Xian%20Hao/contactus.html">HERE</a>
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+    //Javascript for alerting the user has sent a request for enrollment
+        const Buttons = document.querySelectorAll('.right-wrapper input[type=submit]');
+        Buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert("Your enrollment request has been sent to us successfully!");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
