@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Home Page</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" >
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="header">
+		<div id="clubLogo">
+			<img alt="Club's Logo" src="images/Logo.png" />
+		</div>
+				
+		<div id="navigation">
+            <ul> 
+                <li><a href="../Nabil%20Nazim/body.html">Welcome</a></li>
+                <li><a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a></li>
+                <li><a href="../Chia%20Yik%20Seng/programmes.html">Activities</a></li>
+                <li><a href="../Cheng%20Wei%20Quan/forums.html">Forums</a></li>
+                <li><a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+	</div>
+
+	<div class="n-home-content">
+		<div class="n-home-video">
+			<img src="images/new-banner.gif" alt="library" width="100%" >
+			<div class="n-banner-text">
+				<h1>LEARN ENGLISH WITH US</h1>
+				
+			</div>
+		</div>
+		<section class="n-countdown">
+			<p id="n-timer"></p>
+			<!-- Javascript for timer-->
+			<script>
+			var countDownDate = new Date("Aug 1, 2023 00:00:00").getTime();
+			var x = setInterval(function() {
+				var now = new Date().getTime();
+				var distance = countDownDate - now;
+
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				document.getElementById("n-timer").innerHTML = days + "d " + hours + "h "
+				+ minutes + "m " + seconds + "s ";
+
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("n-timer").innerHTML = "TIME IS UP";
+					}
+			}, 1000);
+			</script>
+			<!-- End of Javascript for timer-->
+			<h1>JOIN NOW FOR NO REGISTRATION FEE</h1>
+			<h2>Offer Ends On The 1st of August</h2>
+			<p><a href="../Wong%20Xian%20Hao/eventform.html">Register Now!</a></p>
+		</section>
+
+		<section class="n-intro">
+			<div class="n-introduction">
+				<div class="n-introduction-heading"><h2>Everything Related To English</h2></div>
+				<div class="n-inner-introduction">
+				<p>At English Mastery Club, we're dedicated to giving people the fundamental language abilities they need to succeed in today's globalised society. 
+					We are committed to offering thorough and engaging English language programmes that are made to accommodate students of all ages and skill levels. 
+					We have the ideal programme for you, whether you are a beginner learning the basics of English or an advanced learner looking to improve your fluency.</p>
+				</div>	
+			</div>
+			
+			<div class="n-intro2">
+				<h2>Why <b>Us?</b></h2>
+				<div class="n-row">
+					<div class="n-course-column">
+						<h3>We are MUN qualified</h3>
+						<p>Unleash your diplomatic potential with our MUN program and make a meaningful impact on global issues.</p>
+					</div>
+					<div class="n-course-column">
+						<h3>Over 10 years of experience</h3>
+						<p>Our organization's expertise has been fine-tuned over years of operation, ensuring exceptional results in every endeavour.</p>
+					</div>
+					<div class="n-course-column">
+						<h3>Supported by Oxford and Cambridge</h3>
+						<p>Backed by prestigious institutions, our organization receives vital support, resources, and opportunities for impactful global initiatives.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="n-vid-apu">
+				<h2>Watch This</h2>
+				<p>Let us show you what APU is all about</p>
+				<iframe width="100%" height="607px" src="https://www.youtube.com/embed/3lHwUOXMqBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<div class="n-book-divider"><img alt="Book" src="images/book-divider.png"></div>
+
+		<section class="n-partnerships">
+			<h1>Our Partnerships</h1>
+			<p>We recognise the value of cooperation and global connections in fostering a thorough learning experience as a company committed to offering top-notch English language courses.</p>
+
+			<div class="n-row">
+				<div class="n-partnerships-column">
+					<img src="images/Harvard logo.png" alt="Harvard logo" class="n-harvard">
+					<div class="n-partnership-name">
+						<h3>HARVARD</h3>
+						<p><a href="https://www.harvard.edu/">View More</a></p>
+					</div>
+				</div>
+				<div class="n-partnerships-column">
+					<img src="images/oxford logo.png" alt="Harvard logo">
+					<div class="n-partnership-name">
+						<h3>OXFORD</h3>
+						<p><a href="https://www.ox.ac.uk/">View More</a></p>
+					</div>
+				</div>
+				<div class="n-partnerships-column">
+					<img src="images/cambridge logo.png" alt="Harvard logo">
+					<div class="n-partnership-name">
+						<h3>CAMBRIDGE</h3>
+						<p><a href="https://www.cam.ac.uk/">View More</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="n-reviews">
+			<h1>What They Think About Us</h1>
+			<p>This is what our students have to say</p>
+
+			<div class="n-row">
+				<div class="n-review-col">
+					<div>
+						<q>They have expertly merged conventional language instruction with cutting-edge methods that motivate students of all skill levels.</q>
+						<br/>
+						<img alt="Rating" src="images/5_stars.svg.png">
+						<h3>By Lee</h3>
+					</div>
+				</div>
+				<div class="n-review-col">
+					<div>
+						<q>Their commitment to excellence make them the perfect choice for anyone seeking to master the English language.</q>
+						<br/>
+						<img alt="Rating" src="images/4.5_stars.svg.png">
+						<h3>By Cheng</h3>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+	</div>
+	<div id="footer">
+		<div class="footer-left">
+			<h3>ENGLISH MASTERY CLUB</h3>
+	
+			<div class="footer-nav">
+				<a href="">Welcome</a> |
+				<a href="../Wong%20Xian%20Hao/aboutus.html">About Us</a> |
+				<a href="../Chia%20Yik%20Seng/programmes.html">Activities</a> |
+				<a href="../Cheng%20Wei%20Quan/forums.html">Forums</a> |
+				<a href="../Wong%20Xian%20Hao/contactus.html">Contact Us</a>
+			</div>
+	
+			<p>Copyright &#169; 2023 English Mastery Club <br/>All rights reserved</p>
+		</div>
+		
+		<div class="footer-center">
+			<table>
+				<tr>
+					<td><i class="fa fa-envelope"></i></td>
+					<td><p>apuenglishmasteryclub@mail.apu.edu.my</p></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-phone"></i></td>
+					<td><p>011-222-3333 - Cheng Wei Quan <br/>
+						012-333-6789 - Nabil Nazim <br/>
+						010-666-9999 - Chia Yik Seng <br/>
+						010-567-7890 - Wong Xian Hao</p>
+					</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-map-marker"></i></td>
+					<td><p>8-01, Block C, Level 8 @ APU New Campus</p></td>
+				</tr>
+			</table>
+		</div>
+	
+		<div class="footer-right">
+			<p class="footer-aboutclub">
+				<span>About the club</span>
+				English Mastery Club offers inclusive, friendly environment for English language learners, offering activities, resources, and events for practice, improvement, and cultural exchange.
+			</p>
+	
+			<p class="footer-query">
+				<span>Any queries?</span>
+				Get to Contact Us Page by clicking <a href="../Wong%20Xian%20Hao/contactus.html">HERE</a>
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
